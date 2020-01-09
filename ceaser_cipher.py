@@ -31,7 +31,7 @@ alpha = {
 }
 
 key = 3
-message = "hello my name is ibrahim"
+message = input("ENTER MESSAGE TI ENCRYPT:")
 enc_message = ""
 enc = ""
 key_list = list(alpha.keys()) 
