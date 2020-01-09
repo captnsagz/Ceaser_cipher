@@ -31,7 +31,7 @@ alpha = {
 }
 
 key = 3
-message = "KHOOR PB QDPH LV LEUDKLP"
+message = input("ENTER CIPHER TO DECODE:")
 enc_message = ""
 enc = ""
 key_list = list(alpha.keys()) 
