@@ -49,4 +49,6 @@ for i in message:
                         enc_message = enc_message + enc
         elif i.isspace():
                 enc_message = enc_message + " "
+        else:
+                enc_message = enc_message + i
 print(enc_message)
