@@ -40,7 +40,7 @@ for i in message:
         if i.isalpha():
                 x = i.upper()
                 y = alpha[x] - key
-                if y < 0:
+                if y <= 0:
                         y = y + 26
                         enc = list(alpha.keys())[list(alpha.values()).index(y)]
                         enc_message = enc_message + enc
